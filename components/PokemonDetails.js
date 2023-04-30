@@ -46,9 +46,9 @@ const styles = StyleSheet.create({
     
   },
   image: {
-    marginTop:100,
+    marginTop:80,
     width: 200,
-    height: 200,
+    height: 190,
     marginBottom: 0,
   },
   name: {
@@ -66,9 +66,9 @@ const styles = StyleSheet.create({
     padding: 5,
   },
   button: {
-    marginTop: 20,
+    marginTop: 10,
     width: 101,
-    marginBottom :170,
+    marginBottom :60,
   },
 });
 

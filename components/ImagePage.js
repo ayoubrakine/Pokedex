@@ -24,7 +24,7 @@ const ImagePage = ({ navigation }) => {
 const styles = StyleSheet.create({
   button: {
 
-    marginTop: 45,
+    marginTop: 60,
    
     padding:25,
     backgroundColor: isPressed ? 'blue' : '#3166ae',
@@ -51,17 +51,22 @@ const styles = StyleSheet.create({
   },
   image1: {
     borderRadius: 30,
-    marginTop:0,
+    marginTop:10,
     margin:0.1,
-    width: 433, 
-    height: 140
+    width: 380, 
+    height: 140,
+    alignSelf:'center',
+
     
   },
   image2: {
     borderRadius: 10,
-    marginTop : 0,
-    width: 428, 
-    height: 433
+    marginTop : 30,
+    width: 350, 
+    height: 250,
+    alignSelf:'center',
+    marginBottom:50,
+    
     
   },
   container:{
